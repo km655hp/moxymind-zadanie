@@ -1,7 +1,7 @@
 *** Settings ***
 Library      SeleniumLibrary
 Variables    ../Locators/Menu.py
-Variables    ../Locators/LoginPage.py
+Variables    ../Locators/Login.py
 
 *** Keywords ***
 Open Menu

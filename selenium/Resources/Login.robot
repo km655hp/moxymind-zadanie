@@ -1,6 +1,6 @@
 *** Settings ***
 Library      SeleniumLibrary
-Variables    ../Locators/LoginPage.py
+Variables    ../Locators/Login.py
 Variables    ../Locators/Menu.py
 
 *** Variables ***
