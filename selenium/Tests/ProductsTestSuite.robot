@@ -30,3 +30,10 @@ Add multiple products to cart then remove product
     Navigate to cart
     Remove product from cart
     Click Element    ${continue_shopping_button}
+
+*** Comments ***
+Add product to cart then do checkout
+    - Validates that users can proceed through the entire checkout process, from adding items to the cart, to providing their information and completing the purchase.
+
+Add multiple products to cart then remove product
+    - Ensures the system handles the addition of multiple products and updates the cart badge accordingly, after removing items.
