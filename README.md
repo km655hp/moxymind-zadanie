@@ -1,5 +1,5 @@
 # Steps to run it locally
-1. Install **Python**
+1. Install **Python** 3.12.2
 - https://www.python.org/downloads/
 
 2. Install **Robot Framework**
