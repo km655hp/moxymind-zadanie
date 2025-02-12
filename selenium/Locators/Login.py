@@ -1,0 +1,5 @@
+username_input = "//input[@placeholder='Username']"
+password_input = "//input[@placeholder='Password']"
+login_button = "//input[@id='login-button']"
+login_locked_error = "//div[contains(.,'this user has been locked out')]"
+incorrect_credentials_error = "//div[contains(.,'Username and password do not match any user in this service')]"
