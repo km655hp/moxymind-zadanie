@@ -1,19 +1,19 @@
 # Steps to run it locally
-1. Instal Python
+1. Install **Python**
 - https://www.python.org/downloads/
 
-2. Install Robot Framework
+2. Install **Robot Framework**
 - For more details see Robot Framework documentation https://robotframework.org/?tab=1#getting-started
 - install command: 
-    - pip install robotframework
+    - _pip install robotframework_
 - check if successfully installed
-    - robot --version
+    - _robot --version_
 
-3. Install Selenium Library
-- pip install robotframework-seleniumlibrary
+3. Install **Selenium Library**
+- _pip install robotframework-seleniumlibrary_
 
 4. Run tests
 - to execute all test cases use command:
-    - robot selenium/Tests
+    - _robot selenium/Tests_
 - to extecute specific test suite use command:
-    - robot selenium/Tests/LoginTestSuite.robot
+    - _robot selenium/Tests/LoginTestSuite.robot_
