@@ -18,5 +18,3 @@ Check login error
     [Arguments]    ${error}
     Wait Until Element Is Visible    ${error}
     Element Should Be Visible    ${login_button}
-
-*** Comments ***

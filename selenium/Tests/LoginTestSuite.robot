@@ -19,16 +19,8 @@ Successful login and logoout
     Logout
 
 Login with lockout user and incorrect credentials
-    [Documentation]    Login with locked out credentials and check error
+    [Documentation]    Login with locked out credentials and incorrect credentials and check errors
     Login    ${username_locked}    ${password}
     Check login error    ${login_locked_error}
     Login    ${username_incorrect}    ${password}
     Check login error    ${incorrect_credentials_error}
-
-*** Comments ***
-EXAMPLE: run tests on different browsers
-Open web testcase    ${browser}
-    Sleep    1  
-
-robot -v browser:Chrome selenium/Tests/LoginTests.robot
-robot -v browser:Firefox selenium/Tests/LoginTests.robot
